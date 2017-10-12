@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jaykang.myapplication.CalculatorActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/firstNum"
+        android:textSize="14sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/secondNum"
+        android:textSize="14sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/addition" />
+
+    <Button
+        android:id="@+id/subtraction"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:text="@string/subtraction" />
+
+    <Button
+        android:id="@+id/multiplication"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplication" />
+
+    <Button
+        android:id="@+id/division"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/division" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="calButton">CALCULATOR</string>
+    <string name="timButton">TIMER</string>
+    <string name="firstNum">PUT THE FIRST NUMBER</string>
+    <string name="secondNum">PUT THE SECOND NUMBER</string>
+    <string name="addition">+</string>
+    <string name="subtraction">–</string>
+    <string name="multiplication">*</string>
+    <string name="division">/</string>
+    <string name="result">RESULT VALUE</string>
+    <string name="timer">TIMER</string>
+    <string name="start">START</string>
+    <string name="reset">RESSET</string>
+    <string name="message"></string>
+</resources>
